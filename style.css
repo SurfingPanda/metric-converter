@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(25, 25, 204), rgb(35, 168, 35));
+}
+
+.container{
+    height: 280px;
+    width: 35vw;
+    background-color: #6943FF;
+    margin: 70px auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.screen-header{
+    width: 100%;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+
+.card-title{
+    color: white;
+    font-size: 22px;
+}
+
+input[type=text]{
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid #B295FF;
+    text-align: center;
+    width: 80px;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 1.3rem;
+    background-color: #6943FF;
+    color: white;
+}
+
+button{
+    padding: 12px;
+    background-color: #fff;
+    color: #3D3D3D;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.footer{
+    text-align: center;
+    background-color: #273549;
+    width: 35vw;
+    margin: auto;
+    padding: 18px;
+    color: white;
+    margin-top: -100px;
+}
+
+.footer > h3{
+    color: #CCC1FF;
+    margin-bottom: 8px;
+}
+
+.another{
+    text-align: center;
+    background-color: #273549;
+    width: 35vw;
+    margin: auto;
+    padding: 18px;
+    color: white;
+    
+}
+
+.another > h3{
+    color: #CCC1FF;
+    margin-bottom: 8px;
+}
+
+.another-1{
+    text-align: center;
+    background-color: #273549;
+    width: 35vw;
+    margin: auto;
+    padding: 18px;
+    color: white;
+}
+
+.another-1 > h3{
+    color: #CCC1FF;
+    margin-bottom: 8px;
+}
